@@ -95,6 +95,7 @@ YUI.add('examplemodule', function (Y) {
          * @namespace mywidget
          * @class SubWidget
          * @extends mywidget.SuperWidget
+         * @extensionfor mywidget.SuperWidget
          */
         Y.mywidget.superwidget = Y.Base.create("mysuperwidget", Y.mywidget.superwidget, [], {
                 
